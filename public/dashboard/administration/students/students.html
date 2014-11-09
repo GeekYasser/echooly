@@ -1,0 +1,54 @@
+
+<section id="showStudents">
+	
+	<!--Loading-->
+	<p class="text-center" ng-show="loading"><img src="../../img/loader.gif"></p>
+
+	<!--Lists All Students-->
+<div class="card">
+	<!--Search Bar-->
+	<div class="col-md-4">
+		<label>Recherche:</label>
+		<input class="form-control" ng-model="query" type="text" placeholder="Chercher un etudiant">
+		<a href="" class="glyphicon glyphicon-plus">Ajouter</a>
+		<select>
+
+			<option ng-repeat="student in students"value="Sec">//student.section//</option>	
+		</select>
+	</div>
+<table  class="table table-striped">
+	<thead>
+		<tr>
+			<th>Nom</th>
+			<th>Prénom</th>
+			<th>Date de naissnace</th>
+			<th>Lieu de naissnace</th>
+			<th>Email</th>
+			<th>Niveau</th>
+			<th>Section</th>
+			<th>Group</th>
+			<th>Sous group</th>
+
+		</tr>
+	</thead>
+	<tbody >
+		<tr ng-hide="loading" dir-paginate="student in students | filter:query | itemsPerPage: 8" current-page="currentPage">
+
+			<td>//student.name//</td>
+			<td>//student.lastName//</td>
+			<td>//student.dob//</td>
+			<td>//student.pob//</td>
+			<td>//student.email//</td>
+			<td>//student.level//</td>
+			<td>//student.section//</td>
+			<td>//student.group//</td>
+			<td>//student.subGroup//</td>
+
+		</tr>
+	</tbody>
+</table>
+</div>
+<div class="col-md-4"></div>
+<div class="col-md4"><dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"></dir-pagination-controls></div>
+
+</section>

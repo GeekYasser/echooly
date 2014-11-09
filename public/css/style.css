@@ -1,0 +1,217 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-color: #eff3f6;
+}
+.navbar-right{
+    padding: 15px;
+}
+
+/*Headlines style*/
+h1{
+    color: #576071;
+    font-weight: 900;
+}
+
+/*anchor style*/
+a{
+    font-weight: 700;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*logo style*/
+.logo{
+    width: 173px;
+    height: 39px;
+    background-color: #4ccf72;
+    padding-bottom: 73px;
+}
+.logo img{
+   margin: 12px auto;
+}
+/*end of logo style*/
+
+
+
+
+
+                                /*****************
+                                ****Home Style****
+                                ******************/
+/*Main Title Style*/
+.maintitle{
+ text-align: center;
+}
+/*Card Style*/
+.card{ 
+    background:white;
+    margin:0 1rem 1rem;
+    border-radius:3px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+/*Card img*/
+.card img{
+    margin: 0 auto;
+    padding: 5px;
+}
+/*Caption style*/
+.caption{
+    width: 100%;
+    background-color: #f9fafa;
+    text-align: center;
+    padding: 0 0 15px 0;
+    border-top: 1px solid #dfdfdf;
+    vertical-align: middle;
+}
+.caption h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #576071;
+}
+/*Student Icon*/
+.student_icon{
+    height: 250px;
+    width: 250px;
+}
+                                /*****************
+                                ******Signup style
+                                *************/
+#studentSignup{
+
+}
+
+#studentSignup input{
+    margin: 5px;
+}
+
+
+
+
+
+
+
+                                /******************
+                                ******Dashboard Style*********
+                                *******************************/
+/**SideBar**/
+
+.sidebar{
+ position:absolute;
+    left:0px;
+    bottom:0px;
+    top:94px;
+    z-index: 1;
+    background-color: #576071;
+    width: 173px;
+    height: 100%;
+
+    }
+/**SideBar links**/
+.sidebar label{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #a1a7b3;
+}
+.sidebar ul>li>a{
+    
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.sidebar span{
+    margin-right: 8px;
+}
+.sidebar ul>li>a:hover{
+    background-color: #444d5f;
+}
+.active{
+    background-color: #444d5f;
+}
+.sidebar ul>li>a>img{
+    margin-right: 12px;
+    width: 16%;
+}
+/**Profile Style**/
+.profile a{
+    color:#2a394f;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/**Underline Style**/
+u{  
+    text-decoration: none;
+    border-bottom: 4px solid #fa7d7d;
+}
+/**Infos Holder Style**/ 
+.infos_holder{
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 85px;
+    width: 100%;
+}
+.infos_holder h2{
+    color: #687189;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.infos_holder hr{
+    background-color: #dde1e4;
+    height: 1.5px;
+}
+.infos_holder span{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #687189;
+}
+.infos_holder ul>li{
+    display: inline-block;
+}
+/**Infos Holder Style**/ 
+
+                                /*******************************************
+                                ******Administartion Dashboard Style*********
+                                *******************************/
+/**Student Partial Style**/
+#showStudents{
+  
+}
+#showStudents a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #60be70;
+    font-weight: 800;
+}
+
+/**card title***/
+.card h4{
+    padding:5px;
+    color:#68d588;
+    font-weight: 600;
+}
+
+.card ul li a{
+    color: #576071;
+    font-size: 2rem;
+}
+
+/***Calnedar Style**/
+#calendar{
+    background-color: white;
+    padding: 10px;
+     -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2);
+    border-radius:3px;
+    
+
+}
+
+#calendar button{
+    
+
+}
